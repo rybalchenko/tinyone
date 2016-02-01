@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -9,7 +9,6 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<link rel="icon" href="favicon.png"/>
-	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -22,11 +21,13 @@
 		<div class="ba-home cf">
 			<header class="ba-header">
 				<div class="ba-container cf">
-					<a href="#" class="ba-logo ba-float-left"><img src="img/logo.png" alt=""></a>
+					<a href="#" class="ba-logo ba-float-left">
+					<img src="img/logo.png" class="ba-logo__img" alt="">
+					</a>
 					<nav class="ba-float-right">
 						<ul class="ba-menu">
-							<li><a href="#">Features</a></li>
-							<li><a href="#">Support</a></li>
+							<li><a href="#features">Features</a></li>
+							<li><a href="#support">Support</a></li>
 							<li><a href="#">Blog</a></li>
 						</ul>
 					</nav>
@@ -40,35 +41,41 @@
 					<p>Simple to use for your app, products<br> showcase and your inspiration</p>
 					<p class="ba-about__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Praesent vitae eros eget tellus tristique bibendum. Donec<br> rutrum sed sem quis venenatis. Proin viverra risus a eros<br>  volutpat tempor. In quis arcu et eros porta lobortis sit
 					</p>
-					<ul class="ba-icons">
+					<ul class="ba-about__icons">
 						<li><i class="fa fa-apple"></i></li>
 						<li><i class="fa fa-android"></i></li>
 						<li><i class="fa fa-windows"></i></li>
 					</ul>
 				</div>
-				<div class="ba-width-medium-1-2 ba-float-right-medium ba-text-center">
-					<div class="ba-home__phone">
-						<img src="img/screen.svg" alt="phone">
+				<div class="ba-width-medium-1-2 ba-float-right-medium">
+					<div class="ba-about__phoneblock">
+						<div class="ba-about__phone">
+							<img src="img/logoinverse.png" alt="phone">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<main role="main" >
-			<section class="ba-features">
+			<section id="features" class="ba-features">
 				<div class="ba-container">
 					<h2>Tinyone features</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus<br>tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
 					<div class="ba-grid">
 						<div class="ba-width-small-1-2 ba-width-medium-1-3">
-							<div class="ba-features__icon"><i class="fa fa-tablet"></i></div>
+							<div class="ba-features__icon">
+								<i class="fa fa-tablet"></i>
+							</div>
 							<div class="ba-features__content">
 								<h3>Fully Responsive</h3>
 								<p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Praesent vitae eros eget tellus<br> tristique bibendum.</p>
 							</div>
 						</div>
 						<div class="ba-width-small-1-2 ba-width-medium-1-3">
-							<div class="ba-features__icon"><i class="fa fa-lemon-o"></i></div>
+							<div class="ba-features__icon">
+								<i class="fa fa-lemon-o"></i>
+							</div>
 							<div class="ba-features__content">
 								<h3>Fully Layered PSD</h3>
 								<p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Praesent vitae eros eget tellus<br> tristique bibendum.</p>
@@ -76,98 +83,104 @@
 						</div>
 						<div class="ba-width-small-1-2 ba-width-medium-1-3">
 							<div class="ba-features__icon">
-								<i class="fa fa-folder-o"></i></div>
-								<div class="ba-features__content">
-									<h3>Font Awesome Icons</h3>
-									<p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Praesent vitae eros eget tellus<br> tristique bibendum.</p>
-								</div>
+								<i class="fa fa-folder-o"></i>
 							</div>
-							<div class="ba-width-small-1-2 ba-width-medium-1-3">
-								<div class="ba-features__icon">
-									<i class="fa fa-folder-o"></i></div>
-									<div class="ba-features__content">
-										<h3>HTML3 & CSS3</h3>
-										<p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Praesent vitae eros eget tellus<br> tristique bibendum.</p>
-									</div>
-								</div>
-								<div class="ba-width-small-1-2 ba-width-medium-1-3">
-									<div class="ba-features__icon"><i class="fa fa-envelope-o"></i></div>
-									<div class="ba-features__content">
-										<h3>Email Template</h3>
-										<p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Praesent vitae eros eget tellus<br> tristique bibendum.</p>
-									</div>
-								</div>
-								<div class="ba-width-small-1-2 ba-width-medium-1-3">
-									<div class="ba-features__icon"><i class="fa fa-bookmark-o"></i></div>
-									<div class="ba-features__content">
-										<h3>Free to download</h3>
-										<p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Praesent vitae eros eget tellus<br> tristique bibendum.</p>
-									</div>
-								</div>
+							<div class="ba-features__content">
+								<h3>Font Awesome Icons</h3>
+								<p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Praesent vitae eros eget tellus<br> tristique bibendum.</p>
 							</div>
 						</div>
-					</section>
+						<div class="ba-width-small-1-2 ba-width-medium-1-3">
+							<div class="ba-features__icon">
+								<i class="fa fa-code"></i>
+							</div>
+							<div class="ba-features__content">
+								<h3>HTML3 & CSS3</h3>
+								<p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Praesent vitae eros eget tellus<br> tristique bibendum.</p>
+							</div>
+						</div>
+						<div class="ba-width-small-1-2 ba-width-medium-1-3">
+							<div class="ba-features__icon">
+								<i class="fa fa-envelope-o"></i>
+							</div>
+							<div class="ba-features__content">
+								<h3>Email Template</h3>
+								<p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Praesent vitae eros eget tellus<br> tristique bibendum.</p>
+							</div>
+						</div>
+						<div class="ba-width-small-1-2 ba-width-medium-1-3">
+							<div class="ba-features__icon">
+								<i class="fa fa-bookmark-o"></i>
+							</div>
+							<div class="ba-features__content">
+								<h3>Free to download</h3>
+								<p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Praesent vitae eros eget tellus<br> tristique bibendum.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-				</main>
-				<footer class="ba-footer">
-					<div class="ba-container">
-						<h2>Keep in touch with us</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus<br> tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
-						<form action="#" method="post" class="ba-footer__form">
-							<input type="email" name="email" required placeholder="Enter your email to update">
-							<button type="submit" class="ba-button">Submit</button>
-						</form>
-						<ul class="ba-footer__social">
-							<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
-							<li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
-						</ul>
-						<hr>
-						<div class="ba-grid">
-							<div class="ba-width-large-1-4 ba-width-medium-1-2">
-								<address>HALOVIETNAM LTD<br>
-									66, Dang Van ngu, Dong Da<br>
-									Hanoi, Vietnam</address>
-									<a href="mailto:contact@halovietnam.com">contact@halovietnam.com</a>
-									<a href="tel:718-749-1714" class="ba-footer__phone">+844 35149182</a>
+		</main>
+		<footer id="support" class="ba-footer">
+			<div class="ba-container">
+				<h2>Keep in touch with us</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus<br> tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+				<form action="#" method="post" class="ba-footer__form">
+					<input type="email" name="email" required placeholder="Enter your email to update">
+					<button type="submit" class="ba-button">Submit</button>
+				</form>
+				<ul class="ba-footer__social">
+					<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+					<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
+					<li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
+				</ul>
+				<hr>
+				<div class="ba-grid">
+					<div class="ba-width-large-1-4 ba-width-medium-1-2">
+						<address>HALOVIETNAM LTD<br>
+							66, Dang Van ngu, Dong Da<br>
+							Hanoi, Vietnam</address>
+							<a href="mailto:contact@halovietnam.com">contact@halovietnam.com</a>
+							<a href="tel:718-749-1714" class="ba-footer__phone">+844 35149182</a>
+						</div>
+						<div class="ba-width-large-3-4 ba-width-medium-1-2">
+							<div class="ba-grid">
+								<div class="ba-width-small-1-2 ba-width-large-1-4">
+									<ul class="ba-footer__menu">
+										<li><a href="#">Examples</a></li>
+										<li><a href="#">Shop</a></li>
+										<li><a href="#">License</a></li>
+									</ul>
 								</div>
-								<div class="ba-width-large-3-4 ba-width-medium-1-2">
-									<div class="ba-grid">
-										<div class="ba-width-small-1-2 ba-width-large-1-4">
-											<ul class="ba-footer__menu">
-												<li><a href="#">Examples</a></li>
-												<li><a href="#">Shop</a></li>
-												<li><a href="#">License</a></li>
-											</ul>
-										</div>
-										<div class="ba-width-small-1-2 ba-width-large-1-4">
-											<ul class="ba-footer__menu">
-												<li><a href="#">Contact</a></li>
-												<li><a href="#">About</a></li>
-												<li><a href="#">Privacy</a></li>
-												<li><a href="#">Terms</a></li>
-											</ul>
-										</div>
-										<div class="ba-width-small-1-2 ba-width-large-1-4">
-											<ul class="ba-footer__menu">
-												<li><a href="#">Download</a></li>
-												<li><a href="#">Support</a></li>
-												<li><a href="#">Documents</a></li>
-											</ul>
-										</div>
-										<div class="ba-width-small-1-2 ba-width-large-1-4">
-											<ul class="ba-footer__menu">
-												<li><a href="#">Media</a></li>
-												<li><a href="#">Blog</a></li>
-												<li><a href="#">Forums</a></li>
-											</ul>
-										</div>
-									</div>
+								<div class="ba-width-small-1-2 ba-width-large-1-4">
+									<ul class="ba-footer__menu">
+										<li><a href="#">Contact</a></li>
+										<li><a href="#">About</a></li>
+										<li><a href="#">Privacy</a></li>
+										<li><a href="#">Terms</a></li>
+									</ul>
+								</div>
+								<div class="ba-width-small-1-2 ba-width-large-1-4">
+									<ul class="ba-footer__menu">
+										<li><a href="#">Download</a></li>
+										<li><a href="#">Support</a></li>
+										<li><a href="#">Documents</a></li>
+									</ul>
+								</div>
+								<div class="ba-width-small-1-2 ba-width-large-1-4">
+									<ul class="ba-footer__menu">
+										<li><a href="#">Media</a></li>
+										<li><a href="#">Blog</a></li>
+										<li><a href="#">Forums</a></li>
+									</ul>
 								</div>
 							</div>
 						</div>
-					</footer>
-					<script src="js/main.js"></script>
-				</body>
-				</html>
+					</div>
+				</div>
+			</footer>
+			<script src="js/main.js"></script>
+		</body>
+		</html>
